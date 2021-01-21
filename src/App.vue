@@ -5,7 +5,9 @@
 </template>
 <script>
 export default {
-
+  mounted () {
+    console.log('this.$fetchData', this.$fetchData)
+  }
 }
 </script>
 

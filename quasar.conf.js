@@ -21,6 +21,7 @@ module.exports = function (/* ctx */) {
     boot: [
       'config',
       'router',
+      'axios',
       'i18n',
       'axios'
     ],
@@ -102,7 +103,14 @@ module.exports = function (/* ctx */) {
 
       // Quasar plugins
       plugins: [
-        'Notify'
+        'Notify',
+        'AppFullscreen',
+        'LoadingBar',
+        'Dialog',
+        'Cookies',
+        'QAjaxBar',
+        'TouchPan',
+        'QMenu'
       ]
     },
 
